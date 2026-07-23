@@ -330,20 +330,20 @@
       border-color:rgba(15,23,42,.12);
       box-shadow:0 8px 18px rgba(15,23,42,.06);
     }
-    .kpis{
+    .indicators{
       display:grid;
       grid-template-columns:repeat(4,minmax(0,1fr));
       gap:12px;
       margin-bottom:18px;
     }
-    .kpi{
+    .indicator{
       padding:17px;
       border-radius:20px;
       background:rgba(255,255,255,.86);
       border:1px solid var(--line);
     }
-    .kpi .l{color:var(--muted);font-size:.84rem}
-    .kpi .v{margin-top:6px;font-size:1.72rem;font-weight:850;letter-spacing:-.05em}
+    .indicator .l{color:var(--muted);font-size:.84rem}
+    .indicator .v{margin-top:6px;font-size:1.72rem;font-weight:850;letter-spacing:-.05em}
     .grid{display:grid;grid-template-columns:1.08fr .92fr;gap:18px}
     .section{padding:22px}
     .section h2{margin:0 0 14px;font-size:.84rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
@@ -439,10 +439,10 @@
         <div class="eyebrow">Relacionamento</div>
         <h1>Registro operacional.</h1>
       <div class="kpis" style="margin-top:18px;margin-bottom:0;">
-        <div class="kpi"><div class="l">Hoje</div><div class="v" id="heroSummaryToday">0</div></div>
-        <div class="kpi"><div class="l">Prioridade</div><div class="v" id="heroSummaryPriority">0</div></div>
-        <div class="kpi"><div class="l">Evidência</div><div class="v" id="heroSummaryEvidence">0</div></div>
-        <div class="kpi"><div class="l">Áreas</div><div class="v" id="heroSummaryArea">0</div></div>
+        <div class="indicator"><div class="l">Hoje</div><div class="v" id="heroSummaryToday">0</div></div>
+        <div class="indicator"><div class="l">Prioridade</div><div class="v" id="heroSummaryPriority">0</div></div>
+        <div class="indicator"><div class="l">Evidência</div><div class="v" id="heroSummaryEvidence">0</div></div>
+        <div class="indicator"><div class="l">Áreas</div><div class="v" id="heroSummaryArea">0</div></div>
       </div>
       </div>
       <div class="card hero-side">
@@ -479,10 +479,10 @@
       <div class="card panel">
         <h2>Hoje</h2>
         <div class="kpis" style="margin-bottom:0;">
-          <div class="kpi"><div class="l">Tarefas</div><div class="v" id="kpiToday">0</div></div>
-          <div class="kpi"><div class="l">Ok</div><div class="v" id="kpiDone">0</div></div>
-          <div class="kpi"><div class="l">Pendente</div><div class="v" id="kpiOpen">0</div></div>
-          <div class="kpi"><div class="l">Taxa</div><div class="v" id="kpiRate">0%</div></div>
+          <div class="indicator"><div class="l">Tarefas</div><div class="v" id="kpiToday">0</div></div>
+          <div class="indicator"><div class="l">Ok</div><div class="v" id="kpiDone">0</div></div>
+          <div class="indicator"><div class="l">Pendente</div><div class="v" id="kpiOpen">0</div></div>
+          <div class="indicator"><div class="l">Taxa</div><div class="v" id="kpiRate">0%</div></div>
         </div>
       </div>
     </section>
@@ -504,10 +504,10 @@
       </div>
 
       <div class="kpis">
-        <div class="kpi"><div class="l">Tarefas de hoje</div><div class="v" id="kpiTodayMain">0</div></div>
-        <div class="kpi"><div class="l">Concluídas</div><div class="v" id="kpiDoneMain">0</div></div>
-        <div class="kpi"><div class="l">Pendentes</div><div class="v" id="kpiOpenMain">0</div></div>
-        <div class="kpi"><div class="l">Taxa de execução</div><div class="v" id="kpiRateMain">0%</div></div>
+        <div class="indicator"><div class="l">Tarefas de hoje</div><div class="v" id="kpiTodayMain">0</div></div>
+        <div class="indicator"><div class="l">Concluídas</div><div class="v" id="kpiDoneMain">0</div></div>
+        <div class="indicator"><div class="l">Pendentes</div><div class="v" id="kpiOpenMain">0</div></div>
+        <div class="indicator"><div class="l">Taxa de execução</div><div class="v" id="kpiRateMain">0%</div></div>
       </div>
 
       <div id="tab-today" class="grid">
@@ -570,10 +570,10 @@
           </div>
         </div>
         <div class="kpis" style="margin-bottom:18px;">
-          <div class="kpi"><div class="l">Rotina</div><div class="v" id="libraryDailyCount">0</div></div>
-          <div class="kpi"><div class="l">Ativações</div><div class="v" id="libraryActivationCount">0</div></div>
-          <div class="kpi"><div class="l">Follow-ups</div><div class="v" id="libraryFollowupCount">0</div></div>
-          <div class="kpi"><div class="l">Controles</div><div class="v" id="libraryIssueCount">0</div></div>
+          <div class="indicator"><div class="l">Rotina</div><div class="v" id="libraryDailyCount">0</div></div>
+          <div class="indicator"><div class="l">Ativações</div><div class="v" id="libraryActivationCount">0</div></div>
+          <div class="indicator"><div class="l">Follow-ups</div><div class="v" id="libraryFollowupCount">0</div></div>
+          <div class="indicator"><div class="l">Controles</div><div class="v" id="libraryIssueCount">0</div></div>
         </div>
         <div class="grid">
           <div class="card section">
